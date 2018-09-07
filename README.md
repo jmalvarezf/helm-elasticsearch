@@ -11,10 +11,6 @@ A [Helm](https://github.com/kubernetes/helm) chart that essentially lifts-and-sh
 With Helm properly installed and configured, standing up a complete cluster is almost trivial:
 
 ```
-$ git clone https://github.com/clockworksoul/helm-elasticsearch.git elasticsearch
+$ git clone https://github.com/jmalvarezf/helm-elasticsearch.git elasticsearch
 $ helm install elasticsearch
-```
 
-## Contributing
-
-Please do! Taking pull requests.
