@@ -161,10 +161,10 @@ kibana:
     requests:
       cpu: 100m
   env:
-    # XPACK_GRAPH_ENABLED: "false"
-    # XPACK_ML_ENABLED: "false"
-    # XPACK_REPORTING_ENABLED: "false"
-    # XPACK_SECURITY_ENABLED: "false"
+    XPACK_GRAPH_ENABLED: "true"
+    XPACK_ML_ENABLED: "true"
+    XPACK_REPORTING_ENABLED: "true"
+    XPACK_SECURITY_ENABLED: "true"
   ingress:
     enabled: false
     # Used to create an Ingress record.
